@@ -25,7 +25,7 @@ Plastic pollution has emerged as a critical environmental issue, with microplast
 
 
   - ![Sample Image](images/clean.jpg)
-  - ![Sample Image](images/microplastc.jpg)
+  - ![Sample Image](images/plastc.jpg)
 
 
 ### Data Augmentation
@@ -49,6 +49,8 @@ The CNN architecture is designed for image classification with multiple convolut
 - **Activation Functions**:
   - **ReLU (Rectified Linear Unit)** is used for non-linearity.
   - **Softmax** is used in the output layer for multi-class classification.
+ 
+  - 
 
 ### Model Training
 
@@ -65,6 +67,9 @@ The CNN architecture is designed for image classification with multiple convolut
 - Metrics such as **accuracy**, **precision**, **recall**, and **F1-score** are computed to assess model effectiveness.
 - **Visualizations**:
   - Confusion matrices and loss/accuracy graphs are generated for in-depth analysis.
+  - ![Alt Text](images/confusion_matrix.jpg){: width="300px"}
+  - ![Alt Text](images/last.jpg){: width="300px"}
+
 
 ### Visualization
 
