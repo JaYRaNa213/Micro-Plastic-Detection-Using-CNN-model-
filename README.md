@@ -20,7 +20,9 @@ Plastic pollution has emerged as a critical environmental issue, with microplast
   - Pixel values are normalized to ensure uniform data scaling for improved model performance.
 - **Resizing**:
   - All images are resized to a standard dimension suitable for CNN input, ensuring consistency during training.
-  - ![Alt Text](images/clean.jpg){: width="300px"}
+  - ![Alt Text](images/clean.jpg){: width="200px"}
+  - <img src="imageso/clean.jpg" alt="Alt Text" width="100" />
+
 
   - ![Sample Image](images/clean.jpg)
 
