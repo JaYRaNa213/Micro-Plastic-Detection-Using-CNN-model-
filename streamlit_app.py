@@ -364,26 +364,26 @@ if mode == "🧪 Single Sample Lab":
             """, unsafe_allow_html=True)
             
             # Test button under the card
-            if st.button(f"⚡ Test Sample {i+1}", key=f"quick_test_btn_{i}", use_container_width=True):
-                st.session_state.selected_sample = sample["path"]
-                st.session_state.selected_sample_name = sample["name"]
-                st.session_state.trigger_diagnosis = True
-                st.rerun()
+            # if st.button(f"⚡ Test Sample {i+1}", key=f"quick_test_btn_{i}", use_container_width=True):
+            #     st.session_state.selected_sample = sample["path"]
+            #     st.session_state.selected_sample_name = sample["name"]
+            #     st.session_state.trigger_diagnosis = True
+            #     st.rerun()
     # --- FEATURE 3: QUICK TEST BUTTONS (below the grid) ---
-    st.write("")
-    col_btn1, col_btn2 = st.columns(2)
-    with col_btn1:
-        if st.button("🧪 Test Clean Sample", use_container_width=True):
-            st.session_state.selected_sample = "samples/clean1.jpg"
-            st.session_state.selected_sample_name = "clean1.jpg"
-            st.session_state.trigger_diagnosis = True
-            st.rerun()
-    with col_btn2:
-        if st.button("🚨 Test Contaminated Sample", use_container_width=True):
-            st.session_state.selected_sample = "samples/contaminated1.jpg"
-            st.session_state.selected_sample_name = "contaminated1.jpg"
-            st.session_state.trigger_diagnosis = True
-            st.rerun()
+    # st.write("")
+    # col_btn1, col_btn2 = st.columns(2)
+    # with col_btn1:
+    #     if st.button("🧪 Test Clean Sample", use_container_width=True):
+    #         st.session_state.selected_sample = "samples/clean1.jpg"
+    #         st.session_state.selected_sample_name = "clean1.jpg"
+    #         st.session_state.trigger_diagnosis = True
+    #         st.rerun()
+    # with col_btn2:
+    #     if st.button("🚨 Test Contaminated Sample", use_container_width=True):
+    #         st.session_state.selected_sample = "samples/contaminated1.jpg"
+    #         st.session_state.selected_sample_name = "contaminated1.jpg"
+    #         st.session_state.trigger_diagnosis = True
+    #         st.rerun()
     # --- FEATURE 2: HOW TO USE SECTION ---
     st.write("")
     st.write("")
