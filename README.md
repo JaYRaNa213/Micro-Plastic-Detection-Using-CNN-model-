@@ -8,7 +8,7 @@ This repository contains a deep learning-based solution for detecting microplast
 
 Plastic pollution has emerged as a critical environmental issue, with microplastics posing significant threats to marine life and ecosystems. This project leverages the power of deep learning to address this problem by detecting microplastics in image data. The model is trained on labeled datasets to distinguish microplastics from other materials, enabling automated identification in diverse scenarios.
 
-<img src = "/action.png">
+<img src = "/action.png" width="900px">
 <img src = "/interface.png" >
 
 
@@ -28,8 +28,7 @@ Plastic pollution has emerged as a critical environmental issue, with microplast
   - 
 
 
-  - ![Sample Image](images/clean.jpg){: width="100px"}
-  - ![Sample Image](images/plastic.jpg){: width="100px"}
+
 
 
 ### Data Augmentation
