@@ -274,7 +274,7 @@ if mode == "🧪 Single Sample Lab":
             res = st.session_state.active_result
             col1, col2 = st.columns(2)
             with col1:
-                st.image(active_image, use_container_width=True, caption=f"Active Sample: {res['filename']}")
+                st.image(active_image, use_column_width=True, caption=f"Active Sample: {res['filename']}")
                 if active_source == "Quick Test":
                     if st.button("🧹 Clear Quick Test"):
                         st.session_state.selected_sample = None
@@ -292,12 +292,12 @@ if mode == "🧪 Single Sample Lab":
                 
                 if res["heatmap"] is not None:
                     st.write("### Explainable AI Focus Map")
-                    st.image(res["heatmap"], use_container_width=True, caption="Grad-CAM Activation Map (highlights features used by the model)")
+                    st.image(res["heatmap"], use_column_width=True, caption="Grad-CAM Activation Map (highlights features used by the model)")
         else:
             # Show original image and a button to run the diagnosis
             col1, col2 = st.columns(2)
             with col1:
-                st.image(active_image, use_container_width=True, caption=f"Original Sample: {active_filename}")
+                st.image(active_image, use_column_width=True, caption=f"Original Sample: {active_filename}")
                 if active_source == "Quick Test":
                     if st.button("🧹 Clear Quick Test"):
                         st.session_state.selected_sample = None
